@@ -6,8 +6,11 @@ def square_array(array)
 # end
   arr = []
  # array.each do |item|
-    
-    ##array.each { |item| arr << item ** 2 }
-    arr<<item ** 2
-  end
+#   item ** 2
+#   end
+# end
+
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
 end
