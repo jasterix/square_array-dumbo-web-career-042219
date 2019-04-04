@@ -5,6 +5,6 @@ def square_array(array)
 #   end
 # end
   array.each do |item|
-    item ** 2
+    puts item ** 2
   end
 end
