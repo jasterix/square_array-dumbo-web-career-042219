@@ -4,8 +4,10 @@ def square_array(array)
 #     item ** 2 
 #   end
 # end
+  arr = []
   array.each do |item|
-    arr = []
-    puts item ** 2
+    
+    #array.each { |item| arr << item ** 2 }
+    arr<<item ** 2
   end
 end
