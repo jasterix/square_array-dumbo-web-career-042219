@@ -4,7 +4,6 @@ def square_array(array)
 #     item ** 2 
 #   end
 # end
-  basket.each do |apple|
-    puts "Taking out #{apple}"
-    apples_taken_out += 1
+  array.each do |item|
+    item ** 2
   end
