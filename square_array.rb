@@ -5,9 +5,9 @@ def square_array(array)
 #   end
 # end
   arr = []
-  array.each do |item|
+ # array.each do |item|
     
-    #array.each { |item| arr << item ** 2 }
+    ##array.each { |item| arr << item ** 2 }
     arr<<item ** 2
   end
 end
